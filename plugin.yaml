@@ -1,0 +1,10 @@
+name: llm_wiki
+version: 0.1.0
+description: >
+  Karpathy-style LLM Wiki memory for Hermes. Three-layer knowledge base
+  (raw sources / agent-owned wiki / schema) with disciplined ingest, query,
+  lint, and reflect operations. Every ingest passes through a quality gate
+  before being committed. Local-first; stdlib only.
+pip_dependencies: []
+hooks:
+  - on_pre_compress
