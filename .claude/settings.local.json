@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(curl -sL \"https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw\")",
-      "Read(//tmp/hermes-agent/**)",
-      "Bash(python3 *)"
-    ]
-  }
-}
